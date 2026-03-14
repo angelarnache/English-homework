@@ -1,4 +1,7 @@
-This is CELESTE; it's a code to help a store register, sort, and list products. 
-It works by collecting data such as product, quantity sold, cost, and then multiplying 
-the quantity by the cost and adding it to the total for the other listed products. 
+This is CELESTE; a code that helps stores register, quantity, and list products.
+It works by collecting data such as the product, quantity sold,  cost, and multiplying the quantity by the cost and adding the result to the total of the other listed products.
 Its purpose is to facilitate data entry for the store and display the results.
+The code begins by establishing three fundamental data structures: the products, amounts, and costs lists. By maintaining these lists global and parallel, the system ensures that each record maintains an indexed relationship; that is, position zero in each list will always correspond to the name, quantity, and price of the same item. Execution is encapsulated in the register_products function, which uses a default argument of ten iterations, providing an initial control limit for the user.
+The main flow is managed by a while loop.
+The user interface menu offers two clear paths: active registration or process termination. A critical aspect of the architecture is exception handling when selecting a menu option. By implementing a try-except block for ValueError, the program prevents unexpected interruptions due to non-numeric data, forcing the system to restart the query cycle instead of crashing.
+
