@@ -1,0 +1,4 @@
+This is CELESTE; it's a code to help a store register, sort, and list products. 
+It works by collecting data such as product, quantity sold, cost, and then multiplying 
+the quantity by the cost and adding it to the total for the other listed products. 
+Its purpose is to facilitate data entry for the store and display the results.
