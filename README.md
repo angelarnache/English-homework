@@ -28,7 +28,7 @@ Make sure you have **Python 3** installed.
 ```bash
 python celeste_store.py
 ```
-## 🖥️ Usage
+## Usage
 
 When the program starts, a menu with two options appears:
 
