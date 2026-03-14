@@ -1,19 +1,19 @@
 # English-homework
 In this task I am describing the operation of the code called "celeste"
 
-# 🛒 Celeste's Store — Product Registration System
+#  Celeste-- Product Registration System
 
 A simple command-line application written in Python that allows registering products with their quantities and costs, and calculates the total value of inventory.
 
----
 
-## 📋 Description
+
+ ## Description
 
 This script simulates a basic store product management system. The user can interactively register products, enter quantities and unit costs, and view a summary with total costs calculated automatically.
 
----
 
-## ⚙️ Features
+
+## Features
 
 - Interactive text menu in the console
 - Registration of multiple products in a single session
@@ -21,18 +21,13 @@ This script simulates a basic store product management system. The user can inte
 - Automatic calculation of total cost per product (quantity × unit cost)
 - Option to continue or stop registering products at any time
 
----
-
-## 🚀 How to Run
+##  How to Run
 
 Make sure you have **Python 3** installed.
 
 ```bash
 python celeste_store.py
 ```
-
----
-
 ## 🖥️ Usage
 
 When the program starts, a menu with two options appears:
@@ -58,14 +53,14 @@ If you answer `no`, the registered product list, quantities, and total costs wil
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 celeste_store.py 
 README.md          
 ```
 
-## 🧰 Requirements
+## Requirements
 
 - Python 3.x
  No external libraries required
